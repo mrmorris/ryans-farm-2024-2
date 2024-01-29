@@ -13,5 +13,6 @@ The creatures:
 The grounds:
 
 * [Ocean Simulator](./pond.md)
+* [Climbing Gym](./the-wall.md)
 
 Established 2024
