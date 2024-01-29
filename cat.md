@@ -2,5 +2,4 @@
 
 ----
 
-* Sound: Meow
-* Color: Calico
+Cats are jerks
