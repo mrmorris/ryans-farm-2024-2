@@ -32,7 +32,14 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: View my files
         run: |
-          ls -la
+          touch hello-world.md
+          echo "Hi" >> hello-world.md
+
+      - name: Upload a Build Artifact
+        uses: actions/upload-artifact@v4.3.0
+        with:
+          path: hello-world.md
+     
 
   build:
     runs-on: ubuntu-latest
